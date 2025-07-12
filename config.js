@@ -13,20 +13,20 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON-MD~",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~8YRgjTQC#o7bjaAUNkrKbmxQHRmhYtfVflCj9oHAzcfXVNnrm6xk",  // Your bot's session ID (keep it secure)
     
-    PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
+    PREFIX: getConfig("PREFIX") || "*",  // Command prefix (+")
     
-    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
+    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "𒁂🌱⃝𝗠𝗿  𝗞𝗘𝗡𝗟𝗘𝗬🌴",  // Bot's display name
     
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "50948336180",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "50939279217",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ADD YOUR NAME",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "𒁂🌱⃝𝗠𝗿  𝗞𝗘𝗡𝗟𝗘𝗬🌴",           // Owner's name
     
-    DEV: process.env.DEV || "50948336180",                     // Developer's contact number
+    DEV: process.env.DEV || "50939279217",                     // Developer's contact number
     
     // ===== AUTO-RESPONSE SETTINGS =====
     
@@ -41,7 +41,7 @@ module.exports = {
     
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
     
-    STICKER_NAME: process.env.STICKER_NAME || "MEGALODON-MD",     // Sticker pack name
+    STICKER_NAME: process.env.STICKER_NAME || "𒁂🌱⃝𝗠𝗿  𝗞𝗘𝗡𝗟𝗘𝗬🌴",     // Sticker pack name
    
     
     // ===== MEDIA & AUTOMATION =====
@@ -55,7 +55,7 @@ module.exports = {
     ANTI_DELETE: process.env.ANTI_DELETE || "true",
     ANTI_CALL: process.env.ANTI_CALL || "true",
     ANTI_BAD: process.env.ANTI_BAD || "false",                  // Block bad words?
-    ANTI_LINK_KICK: process.env.ANTILINK_KICK || "false",
+    ANTI_LINK_KICK: process.env.ANTILINK_KICK || "true",
 // make anti link true,false for groups 
     ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "false",
     
@@ -63,9 +63,9 @@ module.exports = {
     
      ANTILINK: process.env.ANTILINK || "false",
     
-    ANTI_VV: process.env.ANTI_VV || "false",  
+    ANTI_VV: process.env.ANTI_VV || "true",  
     // Block view-once messages?
-    DELETE_LINKS: process.env.DELETE_LINKS || "false",  
+    DELETE_LINKS: process.env.DELETE_LINKS || "true",  
     // Auto-delete links?
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
     // Log deleted messages (or 'same' to resend)
